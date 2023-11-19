@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		271BB2672B0945C7007A00E8 /* Resume_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271BB2662B0945C7007A00E8 /* Resume_AppApp.swift */; };
+		271BB2672B0945C7007A00E8 /* My Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271BB2662B0945C7007A00E8 /* My Resume.swift */; };
 		271BB2692B0945C7007A00E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271BB2682B0945C7007A00E8 /* ContentView.swift */; };
 		271BB26B2B0945C9007A00E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271BB26A2B0945C9007A00E8 /* Assets.xcassets */; };
 		271BB26E2B0945C9007A00E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271BB26D2B0945C9007A00E8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		271BB2632B0945C7007A00E8 /* Resume App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resume App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		271BB2662B0945C7007A00E8 /* Resume_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume_AppApp.swift; sourceTree = "<group>"; };
+		271BB2632B0945C7007A00E8 /* My Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Resume.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271BB2662B0945C7007A00E8 /* My Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "My Resume.swift"; sourceTree = "<group>"; };
 		271BB2682B0945C7007A00E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		271BB26A2B0945C9007A00E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271BB26D2B0945C9007A00E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		271BB2642B0945C7007A00E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				271BB2632B0945C7007A00E8 /* Resume App.app */,
+				271BB2632B0945C7007A00E8 /* My Resume.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		271BB2652B0945C7007A00E8 /* Resume App */ = {
 			isa = PBXGroup;
 			children = (
-				271BB2662B0945C7007A00E8 /* Resume_AppApp.swift */,
+				271BB2662B0945C7007A00E8 /* My Resume.swift */,
 				271BB2682B0945C7007A00E8 /* ContentView.swift */,
 				271BB26A2B0945C9007A00E8 /* Assets.xcassets */,
 				271BB26C2B0945C9007A00E8 /* Preview Content */,
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		271BB2622B0945C7007A00E8 /* Resume App */ = {
+		271BB2622B0945C7007A00E8 /* My Resume */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 271BB2712B0945C9007A00E8 /* Build configuration list for PBXNativeTarget "Resume App" */;
+			buildConfigurationList = 271BB2712B0945C9007A00E8 /* Build configuration list for PBXNativeTarget "My Resume" */;
 			buildPhases = (
 				271BB25F2B0945C7007A00E8 /* Sources */,
 				271BB2602B0945C7007A00E8 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Resume App";
+			name = "My Resume";
 			productName = "Resume App";
-			productReference = 271BB2632B0945C7007A00E8 /* Resume App.app */;
+			productReference = 271BB2632B0945C7007A00E8 /* My Resume.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 271BB25E2B0945C7007A00E8 /* Build configuration list for PBXProject "Resume App" */;
+			buildConfigurationList = 271BB25E2B0945C7007A00E8 /* Build configuration list for PBXProject "My Resume" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				271BB2622B0945C7007A00E8 /* Resume App */,
+				271BB2622B0945C7007A00E8 /* My Resume */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271BB2692B0945C7007A00E8 /* ContentView.swift in Sources */,
-				271BB2672B0945C7007A00E8 /* Resume_AppApp.swift in Sources */,
+				271BB2672B0945C7007A00E8 /* My Resume.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		271BB25E2B0945C7007A00E8 /* Build configuration list for PBXProject "Resume App" */ = {
+		271BB25E2B0945C7007A00E8 /* Build configuration list for PBXProject "My Resume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				271BB26F2B0945C9007A00E8 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		271BB2712B0945C9007A00E8 /* Build configuration list for PBXNativeTarget "Resume App" */ = {
+		271BB2712B0945C9007A00E8 /* Build configuration list for PBXNativeTarget "My Resume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				271BB2722B0945C9007A00E8 /* Debug */,

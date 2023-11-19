@@ -42,23 +42,25 @@ struct ContentView: View {
                         paragraphSymbol()
                         paragraphTitle(Title: "LANGUAGES")
                     }
-                    languages(Language: "English")
-                    languages(Language: "Russian")
-                    languages(Language: "Romanian")
+                    languages(Language: "English", Level: "Advanced \nproficiency")
+                    languages(Language: "Russian", Level: "Proficient")
+                    languages(Language: "Romanian", Level: "Native \nproficiency")
                     Text(" ")
                     HStack {
                         paragraphSymbol()
                         paragraphTitle(Title: "INTERESTS")
                     }
-                    
+                    interests(Interest: "🎮 Gaming")
+                    interests(Interest: "🧑‍💻 Computer \nScience")
+                    interests(Interest: "🎧 Music")
                     
                 }
                 Divider()
                     .frame(width: 2)
-                    .background(Color.blue)
+                    .background(Color.gray)
                 
                 VStack {
-                    Text("lashdfjkalsdkjfaldsjkfaldksj")
+                    Text("lashdfjkalsdkjfaldsjkfaddaaas")
                 }
             }
         }
@@ -100,6 +102,17 @@ func skills(Skill: String) -> some View {
         .cornerRadius(5)
 }
 
-func languages(Language: String) -> some View{
-    skills(Skill: Language)
+func languages(Language: String, Level: String) -> some View{
+    VStack(alignment: .leading) {
+        Text(Language)
+        Text(Level)
+            .foregroundStyle(.red)
+            .italic()
+    }
+}
+
+func interests(Interest: String) -> some View {
+    VStack(alignment: .leading) {
+        Text(Interest)
+    }
 }
