@@ -71,6 +71,7 @@ struct ContentView: View {
                     Text("")
                     Text("  I'm a second-year software engineering student with a focus on iOS and front-end development. I started with iOS, making simple apps like a clicker game. Then, during my front-end internship, I learned HTML, CSS, JavaScript, and React. \n  I worked on a dashboard project where I was in charge of the front-end. This project involved making diagrams from data. My main challenge was choosing the right tools for the job, which I learned from. \n   My goal is to be a full-stack iOS app developer. I'm currently learning a lot about front-end development to reach this goal.\n")
                         .font(.custom("Description", fixedSize: 12))
+                        .foregroundStyle(.black)
                     contacts()
                     Text("")
                     VStack(alignment: .leading) {
@@ -117,6 +118,7 @@ func paragraphSymbol() -> some View {
 
 func paragraphTitle(Title: String) -> some View {
     Text(Title)
+        .foregroundStyle(.black)
         .foregroundStyle(.blue)
         .bold()
 }
@@ -132,8 +134,10 @@ func skills(Skill: String) -> some View {
 func languages(Language: String, Level: String) -> some View{
     VStack(alignment: .leading) {
         Text(Language)
+            .foregroundStyle(.black)
         Text(Level)
             .foregroundStyle(.red)
+            .font(.subheadline)
             .italic()
     }
 }
@@ -141,6 +145,7 @@ func languages(Language: String, Level: String) -> some View{
 func interests(Interest: String) -> some View {
     VStack(alignment: .leading) {
         Text(Interest)
+            .foregroundStyle(.black)
     }
 }
 
@@ -150,6 +155,7 @@ func contacts() -> some View{
             Text("📧 dragomir.mindrescu@isa.utm.md")
                 .font(.custom("Location", size: 9))
             Text("📍 Chisinau, Moldova")
+                .foregroundStyle(.black)
                 .font(.custom("Location", size: 9))
         }
         HStack(spacing: 10) {
@@ -157,6 +163,7 @@ func contacts() -> some View{
                 .font(.custom("Location", size: 9))
             Text("📞 +373 (78) 335074")
                 .font(.custom("Location", size: 9))
+                .foregroundStyle(.black)
         }
     }
 }
@@ -166,9 +173,11 @@ func workExperience() -> some View{
         Text("Front-end Developer")
             .font(.subheadline)
             .fontWeight(.medium)
+            .foregroundStyle(.black)
         Text("Extole SRL.")
             .font(.custom("Company name", size: 14))
             .fontWeight(.light)
+            .foregroundStyle(.black)
         Text("09/2023-11/2023")
             .font(.custom("Duration", size: 12))
             .foregroundStyle(.red)
@@ -179,16 +188,19 @@ func workExperience() -> some View{
             .italic()
         Text("  Dashboard Development: Led the design and implementation of a fully functional front-end dashboard, enhancing data accessibility and user interaction. \n   API Integration: Successfully integrated the dashboard with an API developed by the database engineering team, ensuring efficient data retrieval and management. \n User Experience Improvement: Designed a responsive and intuitive user interface, significantly improving user engagement and ease of navigation. \n Performance Optimization: Conducted thorough testing and debugging, optimizing the dashboard’s performance for a seamless user experience.")
             .font(.custom("Tasks", size: 12))
+            .foregroundStyle(.black)
     }
 }
 
 func education() -> some View{
     VStack (alignment: .leading){
         Text("Baccalaureate")
+            .foregroundStyle(.black)
             .font(.subheadline)
             .fontWeight(.medium)
         Text("Theoretical Lyceum \"Alecu Russo\"")
             .font(.subheadline)
+            .foregroundStyle(.black)
         Text("2010-2022")
             .font(.custom("Duration", size: 12))
             .italic()
@@ -196,8 +208,10 @@ func education() -> some View{
         Text("Software Engineer Bachelor Degree")
             .font(.subheadline)
             .fontWeight(.medium)
+            .foregroundStyle(.black)
         Text("Technical University of Moldova")
             .font(.subheadline)
+            .foregroundStyle(.black)
         Text("2022-2026")
             .font(.custom("Duration", size: 12))
             .italic()
